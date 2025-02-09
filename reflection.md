@@ -1,3 +1,6 @@
 Use this file to record your reflection on this assignment. 
 
 What worked, what didn't, what advice would you give someone taking this course in the future?
+
+This assignment was really challenging, and I am not entirely sure that I did it right. I have never coded in Python before, and so I had to do a lot of research around what syntax to use. Additionally, because I don't entirely know what Python can and cannot do, I am not entirely sure if all of my constructors and methods are complete or not. In general, I felt like this assignment was my best attempt, but also a shot in the dark. 
+That being said, the professors made it clear that making mistakes at this point in the game is totally okay, and expected. Additionally, because the rest of the class is primarily Java (a language I do know) I am not too panicked at this moment in time. I plan to review this assignment with th professors or tutors, however, to gain a bit more understnding on Python. But I am okay with the knowledge that this may not be my best assignment because it is in a language I am very unfamiliar with.
