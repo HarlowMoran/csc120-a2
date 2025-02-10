@@ -12,15 +12,16 @@ class ResaleShop:
 
     # What methods will you need?
     #I need the ability to add a computer to the inventory, and return it's computer ID
-    def buy(self, new_computer, description, processor_type, hard_drive_capacity, memory, operating_system, year_made, price):
-            self.description = description
-            self.processor_type = processor_type
-            self.hard_drive_capacity = hard_drive_capacity
-            self.memory = memory
-            self.operating_system = operating_system
-            self.year_made = year_made
-            self.price = price
-            new_computer = Computer(self, description, processor_type, hard_drive_capacity, memory, operating_system, year_made, price)
-            return new_computer
-    #I need the ability to edit this inventory to add the new computer
-    inventory.append(buy)
+    def buy(computer: dict):
+        inventory.append(computer)
+        return inventory.index(computer)
+
+    #I need the ability to edit this inventory to sell, or remove, a computer
+    def sell(computer_id: int):
+        if inventory[computer_id] is not None:
+            inventory.pop(computer_id)
+            print("Item", computer_id, "sold!")
+        else:
+            print("Item", computer_id, "not found. Please select another item to sell.")
+        
+    
