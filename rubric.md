@@ -27,7 +27,7 @@ __**PART** __ 1 pt: Constructor for `ResaleShop` class is present and sets attri
 
 __**PART** __ 1 pt: Can successfully add a new `Computer` to the inventory
 
-__**NO** __ 1 pt: Can successfully remove a `Computer` from the inventory
+__**YES** __ 1 pt: Can successfully remove a `Computer` from the inventory
 
 __**YES** (I think) __ 1 pt: Can successfully update the price/OS of a `Computer` contained in the inventory
 
